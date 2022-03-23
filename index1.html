@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <center>
+        <h1>Registration form</h1>
+        <table border="4">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text" name="name" id="name" placeholder="Enter your name"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="text" name="email" id="email" placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <th>Website</th>
+                    <td><input type="text" name="website" id="website" placeholder="Enter your website"></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td><input type="text" name="gender" id="gender" placeholder="Enter your gender"></td>
+                </tr>
+                <tr>
+                    <th>Skills</th>
+                    <td><input type="text" name="skill" id="skill" placeholder="Enter your skills"></td>
+                </tr>
+                <tr id="btna">
+                    <td colspan="2"><input type="button" name="button" id="btn" class="get" value="Add" onclick="AddRow()"></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Student details</h2>
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Website</th>
+                    <th>gender</th>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+        </table>
+    </center>
+    <script src="script1.js"></script>
+</body>
+
+</html>
+
